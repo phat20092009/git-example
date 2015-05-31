@@ -1,0 +1,11 @@
+git init git_example
+git add readme.txt
+git status
+git commit -m "First Commit"
+
+cd hoc-git
+echo "# Huong dan Git co ban" > README.md
+git add README.md
+git commit -m "First commit on Github"
+
+git push origin master
